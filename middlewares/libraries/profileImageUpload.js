@@ -2,7 +2,7 @@ const multer = require('multer')
 const path = require('path')
 const CustomError = require('../../helpers/error/CustomError')
 
-// Stroga / File Filter
+// Stroge / File Filter
 
 const storage = multer.diskStorage({
     destination: function(req,file,cb) {
